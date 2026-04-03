@@ -2,11 +2,8 @@ package com.java.tweetaudit.client;
 
 import com.google.genai.Client;
 import com.google.genai.types.GenerateContentResponse;
-import com.java.tweetaudit.model.GeminiRequest;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 
 @Component
 public class GeminiApiClient {
